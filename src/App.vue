@@ -24,8 +24,8 @@ export default {
   },
   created() {
     let openid = this.getUrlParam("openid");
-    // let local = window.location.href;
-    let local = 'http://192.168.101.16:8081/#/'
+    let local = window.location.href;
+    // let local = 'http://192.168.101.16:8081/#/'
     console.log(local)
 
     if (openid === null || openid === '') {
